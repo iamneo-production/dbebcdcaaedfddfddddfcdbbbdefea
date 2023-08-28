@@ -1,8 +1,5 @@
 package com.example;
 
-/**
- * Hello world!
- */
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -13,7 +10,7 @@ public class App {
 		
 
 			// Creating an instance of Firefox Browser
-			WebDriver driver = new ChromeDriver();
+			FirefoxDriver driver;
 			String iamneo = "http://iamneo.ai";
 			String facebookUrl = "https://www.facebook.com";
 
