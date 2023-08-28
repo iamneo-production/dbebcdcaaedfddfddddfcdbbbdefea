@@ -13,7 +13,7 @@ public class App {
 		
 
 			// Creating an instance of Firefox Browser
-			FirefoxDriver driver;
+			WebDriver driver = new ChromeDriver();
 			String iamneo = "http://iamneo.ai";
 			String facebookUrl = "https://www.facebook.com";
 
